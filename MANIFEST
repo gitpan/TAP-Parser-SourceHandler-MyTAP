@@ -1,0 +1,12 @@
+bin/my_prove
+Build.PL
+Changes
+lib/TAP/Parser/SourceHandler/MyTAP.pm
+MANIFEST			This list of files
+META.yml
+README
+t/bin/mysql
+t/pod-coverage.t
+t/pod.t
+t/source.my
+t/source_handler.t
