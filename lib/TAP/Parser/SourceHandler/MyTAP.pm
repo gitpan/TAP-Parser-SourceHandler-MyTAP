@@ -9,7 +9,7 @@ use TAP::Parser::Iterator::Process ();
 @ISA = qw(TAP::Parser::SourceHandler);
 TAP::Parser::IteratorFactory->register_handler(__PACKAGE__);
 
-our $VERSION = '3.22';
+our $VERSION = '3.23';
 
 =head1 Name
 
@@ -307,16 +307,29 @@ sub make_iterator {
 
 =head1 See Also
 
-L<TAP::Object>,
-L<TAP::Parser>,
-L<TAP::Parser::IteratorFactory>,
-L<TAP::Parser::SourceHandler>,
-L<TAP::Parser::SourceHandler::Executable>,
-L<TAP::Parser::SourceHandler::Perl>,
-L<TAP::Parser::SourceHandler::myTAP>
-L<TAP::Parser::SourceHandler::File>,
-L<TAP::Parser::SourceHandler::Handle>,
-L<TAP::Parser::SourceHandler::RawTAP>
+=over
+
+=item * L<TAP::Object>
+
+=item * L<TAP::Parser>
+
+=item * L<TAP::Parser::IteratorFactory>
+
+=item * L<TAP::Parser::SourceHandler>
+
+=item * L<TAP::Parser::SourceHandler::Executable>
+
+=item * L<TAP::Parser::SourceHandler::Perl>
+
+=item * L<TAP::Parser::SourceHandler::pgTAP>
+
+=item * L<TAP::Parser::SourceHandler::File>
+
+=item * L<TAP::Parser::SourceHandler::Handle>
+
+=item * L<TAP::Parser::SourceHandler::RawTAP>
+
+=back
 
 =head1 Support
 
@@ -333,7 +346,7 @@ L<email|mailto:bug-tap-parser-sourcehandler-mytap@rt.cpan.org> a report!
 
 David E. Wheeler <dwheeler@cpan.org>
 
-=head1 Copyright and Licence
+=head1 Copyright and License
 
 Copyright (c) 2010 David E. Wheeler. Some Rights Reserved.
 
