@@ -4,7 +4,7 @@ use strict;
 use App::Prove;
 use Getopt::Long;
 
-our $VERSION = '3.23';
+our $VERSION = '3.24';
 $|++;
 
 Getopt::Long::Configure(qw(no_ignore_case bundling pass_through));
@@ -57,7 +57,7 @@ $app->process_args(
     } qw(mysql database user password host port)
 );
 
-exit $app->run ? 0 : 1;
+exit($app->run ? 0 : 1);
 
 __END__
 

@@ -10,3 +10,4 @@ t/pod-coverage.t
 t/pod.t
 t/source.my
 t/source_handler.t
+META.json
