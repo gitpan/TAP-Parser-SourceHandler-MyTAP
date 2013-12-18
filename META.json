@@ -4,7 +4,7 @@
       "David E. Wheeler <dwheeler@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110580",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -31,7 +31,7 @@
             "Test::Pod::Coverage" : "1.06"
          },
          "requires" : {
-            "TAP::Parser::SourceHandler" : 0,
+            "TAP::Parser::SourceHandler" : "0",
             "perl" : "5.006"
          }
       }
@@ -39,7 +39,7 @@
    "provides" : {
       "TAP::Parser::SourceHandler::MyTAP" : {
          "file" : "lib/TAP/Parser/SourceHandler/MyTAP.pm",
-         "version" : "3.24"
+         "version" : "3.25"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,5 @@
          "url" : "http://github.com/theory/tap-parser-sourcehandler-mytap/tree/"
       }
    },
-   "version" : "3.24"
+   "version" : "3.25"
 }

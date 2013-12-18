@@ -1,13 +1,12 @@
+.travis.yml
 bin/my_prove
 Build.PL
 Changes
 lib/TAP/Parser/SourceHandler/MyTAP.pm
 MANIFEST			This list of files
-META.yml
-README
+README.md
 t/bin/mysql
-t/pod-coverage.t
-t/pod.t
 t/source.my
 t/source_handler.t
+META.yml
 META.json
